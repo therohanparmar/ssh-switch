@@ -1,0 +1,13 @@
+{
+  "title": "SSH Switch",
+  "mainBinaryName": "ssh-switch",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rohan Parmar",
+    "displayName": "Rohan Parmar",
+    "url": "www.linkedin.com/in/rohanrparmar"
+  },
+  "icon": {
+    "tauriPng": "src-tauri/icons/icon.png"
+  }
+}

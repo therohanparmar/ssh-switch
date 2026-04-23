@@ -1,0 +1,20 @@
+[package]
+name = "sshswitch"
+version = "1.0.0"
+description = "Desktop app for managing and switching SSH keys"
+authors = ["Rohan Parmar"]
+edition = "2021"
+
+[lib]
+name = "sshswitch_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.5.0", features = [] }
+
+[dependencies]
+dirs = "6.0.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tauri = { version = "2.3.1", features = [] }
+thiserror = "2.0.9"
